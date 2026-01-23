@@ -1,4 +1,4 @@
-# 🐳 Conceitos Fundamentais do Docker
+# 🐳 Conceitos Fundamentais
 
 ## 1. Imagem Docker
 🖼️ **O que é uma imagem?**
@@ -53,3 +53,4 @@ Ele define:
 ```dockerfile
 FROM nginx
 COPY . /usr/share/nginx/html
+
