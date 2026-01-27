@@ -1,0 +1,11 @@
+FROM alpine:latest
+
+RUN apk add --no-cache openssh
+
+WORKDIR /app
+
+COPY envia_arquivo.sh /app/envia_arquivo.sh
+
+RUN chmod +x /app/envia_arquivo.sh
+
+ENTRYPOINT ["/app/envia_arquivo.sh"]
